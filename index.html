@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voetzorg & Wellness | Professionele Pedicure</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#9A7E6F",
+              secondary: "#D4C5B9",
+              "background-light": "#FDFBF7",
+              "background-dark": "#1F1C1A",
+              "surface-light": "#F2EFE9",
+              "surface-dark": "#2C2826",
+              "text-main-light": "#4A403A",
+              "text-main-dark": "#EDE8E4",
+              "accent-brown": "#4A403A",
+            },
+            fontFamily: {
+              display: ["EB Garamond", "serif"],
+              sans: ["Inter", "sans-serif"],
+            },
+            borderRadius: {
+              '3xl': '2rem',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-display {
+        font-family: 'EB Garamond', serif;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .glass-nav {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+      }
+      .dark .glass-nav {
+        background: rgba(31, 28, 26, 0.85);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
